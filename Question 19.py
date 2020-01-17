@@ -1,1 +1,10 @@
-
+from Tkinter import *
+fen.Tk()
+fen.configure(width="600", height="600", bg="black")
+toile=Canvas(fen, width="500", height="500", bg="red")
+toile.pack()
+toile.create_arc(width="300", height="300" bg="blue")
+toile.create_arc(width="250", height="250" bg="black")
+toile.create_arc(width="200", height="200" bg="blue")
+toile.create_arc(width="100", height="100" bg="black")
+fen.mainloop()
