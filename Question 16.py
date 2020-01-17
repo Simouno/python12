@@ -1,6 +1,6 @@
 from Tkinter import *
 fen=Tk()
-
+fen.configure(width="500", height="600")
 bou=Button(fen, text="boutton",bg="red")
 bou=Button(fen, text="cree un boutton",bg="yellow")
 bou.pack()
