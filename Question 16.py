@@ -20,6 +20,6 @@ def clicl2(event);
 	global clic2
 	clic2=clic2+1
 	bou=Button(fen,text="Nouveau boutton", bg="yellow")
-bou.bin("<button-1>",clicl2) 
+bou.bind("<button-1>",clicl2) 
 bou1.bind("<Button-1>",click)
 fen.mainloop()
