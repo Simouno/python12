@@ -3,6 +3,7 @@ import time
 fen.Tk()
 fen.configure(width="600", height="600", bg="blue")
 toile=Canvas(fen, width="500", height="500", bg="blue")
+message=Label(fen, text="haha, tu as été truqué")
 bou1=Bouton(fen,text="Fermer la fenetre", bg="black", fg="yellow",command=fen.destroy)
 balle = toile.create_oval(0,0,30,30, fill="red")
 rec = toile.create_rectangle(0,0,560,560, fill="green")
